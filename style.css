@@ -1,12 +1,48 @@
-      * {
-        box-sizing: border-box;
-      }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-      body {
-        background-color: #fff;
-        color: #333;
-        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
-        padding: 1em;
-        margin: 0;
-        width: 500px;
-      }
+body {
+      background-color: #fff;
+      color: #333;
+      font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+      padding: 1em;
+      margin: 0;
+      width: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  width: 150px;
+  border-color: black;
+  border-radius: 5px;
+  background-color: beige;
+}
+
+button {
+  cursor: pointer;
+  background-color: beige;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 1px black;
+}
+
+h2,
+li {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+label {
+  padding-right: 5px;
+}
+
